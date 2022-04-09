@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/jokempô.css" />
+    <title>Jokempô</title>
+  </head>
+  <body>
+    <header class="tabela-jogador">
+      <div class="vencedor">
+        <span>Vencedor</span>
+      </div>
+      <div class="placar-jogadores">
+        <span class="jogador jogador-1">jogador 1 </span>
+        <strong class="pontuação pontuação-jogador-1">0</strong>
+        <strong class="vs">vs</strong>
+        <strong class="pontuação pontuação-jogador-2">0</strong>
+        <span class="jogador jogador-2">jogador 2 </span>
+      </div>
+    </header>
+    <section class="conteiner">
+      <div class="botões-jogadas">
+        <button class="botão botão-pedra-1">Pedra</button>
+        <button class="botão botão-papel-1">Papel</button>
+        <button class="botão botão-tesoura-1">Tesoura</button>
+      </div>
+      <div class="campo-de-batalha">
+        <div class="campo campo-1"></div>
+        <strong class="vs vs-grande">vs</strong>
+        <div class="campo campo-2"></div>
+      </div>
+      <div class="botões-jogadas">
+        <button class="botão botão-pedra-2">Pedra</button>
+        <button class="botão botão-papel-2">Papel</button>
+        <button class="botão botão-tesoura-2">Tesoura</button>
+      </div>
+    </section>
+    <div class="botões-ações">
+      <button class="botão iniciar">Iniciar</button>
+      <button class="botão resetar">Resetar</button>
+    </div>
+  </body>
+  <script src="./src/jokempo.js"></script>
+</html>

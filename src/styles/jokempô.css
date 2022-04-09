@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+body {
+  background-color: #82cdff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.tabela-jogador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.vencedor {
+  background-color: #0099ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dbf1ff;
+  padding: 15px 45px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 17px 17px 0 0;
+  width: fit-content;
+}
+
+.placar-jogadores {
+  background-color: #0099ff;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jogador {
+  color: #dbf1ff;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 20px;
+}
+.vs {
+  color: #dbf1ff;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 35px;
+}
+.pontuação {
+  background-color: #dbf1ff;
+  width: fit-content;
+  color: #0099ff;
+  font-size: 60px;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+.conteiner {
+  display: flex;
+}
+.campo-de-batalha {
+  height: 250px;
+  width: 900px;
+  background-color: #0099ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  margin-bottom: 3%;
+}
+.campo {
+  height: 200px;
+  width: 300px;
+  background-color: #dbf1ff;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campo-2 {
+  transform: scaleX(-1);
+}
+.botões-jogadas {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2%;
+}
+.vs-grande {
+  font-size: 50px;
+  margin: 50px;
+}
+
+.botão {
+  height: 50px;
+  width: 155px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #0099ff;
+  color: #dbf1ff;
+  transition-duration: 300ms;
+}
+.botão:hover {
+  border: 1px solid #0099ff;
+  background-color: transparent;
+  color: #0099ff;
+  box-shadow: 10px 10px 10px #00000056;
+}
+.botões-ações {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.imagem-jogada {
+  width: 75%;
+}
+.botão-ativo {
+  color: white;
+  background-color: red;
+  transition-duration: 300ms;
+}
+.botão-ativo:hover{
+  border: 1px solid red ;
+  background-color: transparent;
+  color:red ;
+}
